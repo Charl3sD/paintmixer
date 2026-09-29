@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paint mixer</title>
+    <meta
+      name="description"
+      content="Tell it which paints you have, pick a colour, and get the paints and ratios to mix it."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..800;1,400..800&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="masthead">
+      <h1>Paint mixer</h1>
+      <p>Tell it which paints you have, choose a colour, and it works out what to mix and in what ratio.</p>
+    </header>
+
+    <main class="layout">
+      <section class="paints" aria-labelledby="paints-heading" id="paints"></section>
+      <section class="target" aria-labelledby="target-heading" id="target"></section>
+      <section class="recipe" aria-labelledby="recipe-heading" id="recipe"></section>
+    </main>
+
+    <footer class="colophon">
+      <p>
+        Mixes are simulated with Kubelka-Munk pigment theory using
+        <a href="https://github.com/rvanwijnen/spectral.js">spectral.js</a>. Screens and real pigments vary, so test a
+        small amount before mixing a whole batch. Images you load never leave your browser.
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

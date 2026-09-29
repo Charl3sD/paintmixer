@@ -1,0 +1,26 @@
+{
+  "name": "paint-mixer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find the paints and ratios to mix a target colour, using a Kubelka-Munk pigment model.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "spectral.js": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^7.3.6",
+    "vitest": "^3.2.7"
+  }
+}
