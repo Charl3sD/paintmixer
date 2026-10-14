@@ -42,3 +42,7 @@ The repo includes a `render.yaml` Blueprint for a free **Static Site**:
    and serves `dist/`.
 
 No disk, database or environment secrets are needed.
+
+## License
+
+[MIT](LICENSE)
